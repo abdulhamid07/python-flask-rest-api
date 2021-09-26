@@ -1,0 +1,14 @@
+CATATAN
+1. Activate Virtual Environment
+  env/Scripts/activate
+2. Deactivate Virtual Environment
+  deactivate
+3. pip3 install flask
+4. pip3 install python-dotenv
+5. pip3 install flask-sqlalchemy
+6. pip3 install flask-migrate
+7. pip3 install pymysql
+8. flask db init (init migration)
+9. flask db migrate -m "create table user" (migrate table user)
+10. flask db stamp head, flask db migrate -m "create table user" (migrate table user) dilanjut no 11
+11. flask db upgrade
